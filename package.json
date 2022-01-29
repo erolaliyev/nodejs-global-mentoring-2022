@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "task1": "nodemon ./module-2/task1.js",
+    "task2": "nodemon ./module-2/task2.js",
+    "task3-2": "nodemon --exec npx babel-node ./module-2/task3-2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/erolaliyev/nodejs-global-mentoring-2022/issues"
   },
-  "homepage": "https://github.com/erolaliyev/nodejs-global-mentoring-2022#readme"
+  "homepage": "https://github.com/erolaliyev/nodejs-global-mentoring-2022#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
 }
