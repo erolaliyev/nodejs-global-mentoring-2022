@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "task1": "nodemon ./module-2/task1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
