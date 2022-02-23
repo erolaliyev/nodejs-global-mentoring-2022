@@ -8,5 +8,12 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
-	"rules": {}
+	"rules": {
+		"indent": "off",
+		"no-tabs": "off",
+		"newline-per-chained-call": "off",
+		"comma-dangle": "off",
+		"no-unused-vars": "warn",
+		"no-console": "warn"
+	}
 }
