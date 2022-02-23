@@ -7,6 +7,7 @@
     "task1": "nodemon ./module-2/task1.js",
     "task2": "nodemon ./module-2/task2.js",
     "task3-2": "nodemon --exec npx babel-node ./module-2/task3-2.js",
+    "home-task-2": "nodemon --exec npx babel-node ./module-3/home-task-2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,13 +21,17 @@
   },
   "homepage": "https://github.com/erolaliyev/nodejs-global-mentoring-2022#readme",
   "dependencies": {
-    "csvtojson": "^2.0.10"
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
+    "@babel/eslint-parser": "^7.17.0",
     "@babel/node": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
-    "eslint": "^8.8.0",
+    "eslint": "^8.9.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4"
   }
